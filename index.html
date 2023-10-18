@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт о Коко Шанель</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://myfonts.ru/myfonts?fonts=mak" rel="stylesheet" type="text/css" />
+    <style>
+    body {
+     background: #FFFBF7;
+    }
+    h1 {
+      font-family: 'Mak', arial;
+      color: black;
+      font-size: 11vw;
+      margin-left: 31vw;
+    }
+    h2 {
+      font-family: 'Mak', arial;
+      color: black;
+      font-size: 6vw;
+      margin-left: 2vw;
+    }
+    h3 {
+      font-family: 'Roboto', sans-serif;
+      color: black;
+      font-size: 4vw;
+      margin-left: 4vw;
+      padding-top: 2vw;
+    }
+    h4 {
+      font-family: 'Roboto', sans-serif;
+      color: black;
+      font-size: 2vw;
+      margin-left: 4vw;
+      padding-top: 1vw;
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+    }
+    .history {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2vw;
+      margin-left: 31vw;
+      margin-top: -9vw;
+    }
+    .submit {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2vw;
+      padding: 1vw;
+      color: #FFFBF7;
+      background-color: #181818;
+      border: 0.2vw solid black;
+      border-radius: 0.1vw;
+      cursor: pointer;
+    }
+    .contacts {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2vw;
+      margin-left: 4vw;
+      margin-top: 1vw;
+    }
+    ol, li {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2vw;
+      margin-left: 2vw;
+    }
+    figcaption {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2vw;
+      margin-top: 2vw;
+    }
+    .fashion {
+      font-family: 'Roboto', sans-serif;
+      font-size: 4vw;
+      font-style: oblique;
+    }
+    .beauty {
+      font-family: 'Roboto', sans-serif;
+      font-size: 4vw;
+      font-style: oblique;
+    }
+    li {
+      padding: 0.5vw;
+    }
+    nav > #menu-items {
+     width: 50vw;
+     display: flex;
+     position: relative;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 1vw;
+     z-index: 1;
+   }
+   nav > #menu-items > a {
+    margin-top: 3vw;
+    line-height: 2vw;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-decoration: none;
+  }
+  .taski {
+   padding: 1vw;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-size: 2vw;
+   text-decoration: none;
+ }
+  nav {
+    margin-left: 44vw;
+    margin-top: -10vw;
+  }
+  .quo {
+    margin-top: 12vw;
+  }
+  .logo {
+    padding: 2vw;
+    width: 5vw;
+    height: 4vw;
+  }
+  .chanel {
+    margin-left: 2vw;
+    margin-top: -36vw;
+    width: 25vw;
+    height: 40vw;
+  }
+  .form {
+    margin-left: 4vw;
+    width: 60vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+  .chanel2 {
+    position: absolute;
+    margin-left: 53vw;
+    margin-top: -38vw;
+    width: 15vw;
+    height: 20vw;
+  }
+  .chanel3 {
+    position: absolute;
+    margin-left: 56vw;
+    margin-top: -6vw;
+    width: 12vw;
+    height: 11vw;
+  }
+  .kvadrat {
+    margin-left: 2vw;
+    margin-top: 9vw;
+    width: 93vw;
+    height: 25vw;
+    background-color: #181818;
+  }
+  .kvadrat2 {
+    margin-left: 2vw;
+    margin-top: -3vw;
+    width: 93vw;
+    height: 42vw;
+    background-color: #FFFBF7;
+    border: 0.1vw solid black;
+  }
+  #kvadratik {
+    margin-left: 2vw;
+    margin-top: 8vw;
+    width: 93vw;
+    height: 105vw;
+    background-color: #FFFBF7;
+    border: 0.1vw solid black;
+  }
+  .task {
+    margin-left: 4vw;
+    margin-top: 2vw;
+    width: 60vw;
+    height: 4.5vw;
+    background-color: #FFFBF7;
+    border: 0.1vw solid black;
+  }
+  .dop {
+    margin-left: 2vw;
+    margin-top: 5vw;
+    width: 93vw;
+    height: 40vw;
+    background-color: #FFFBF7;
+    border: 0.1vw solid black;
+  }
+  .quote {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5vw;
+    color: #FFFBF7;
+    font-style: italic;
+    text-align: center;
+    margin-top: -19vw;
+  }
+  .quotes {
+    position: absolute;
+    margin-top: -2vw;
+  }
+  .drawing {
+    position: absolute;
+    width: 40vw;
+    height: 28vw;
+    margin-left: 50vw;
+    margin-top: -36.5vw;
+  }
+  .drawing2 {
+    margin-top: 4vw;
+    width: 40vw;
+    height: 27vw;
+  }
+  .drawing3 {
+    position: absolute;
+    width: 40vw;
+    height: 26.5vw;
+    margin-left: 50vw;
+    margin-top: -35vw;
+  }
+  .portrait {
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -6vw;
+  }
+  .arrow {
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: 1vw;
+  }
+  .arrow3 {
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: 1vw;
+  }
+  .arrow2 {
+    position: absolute;
+    margin-left: 53vw;
+    margin-top: 1vw;
+  }
+  .arrow4 {
+    position: absolute;
+    margin-left: 53vw;
+    margin-top: 1vw;
+  }
+  </style>
+  </head>
+  <body>
+   <a href="index.html"><img src="images/logo.png" class="logo" alt="логотип"></a>
+    <nav>
+     <div id="menu-items">
+       <a href="portrait.html"><p>Словесный портрет</p></a>
+       <a href="works.html"><p>Работы</p></a>
+       <a href="#kvadratik"><p>Записаться на лекцию</p></a>
+      </div>
+    </nav>
+    <h1>КОКО ШАНЕЛЬ</h1>
+    <div class="history">История основательницы <br> знаменитого модного <br> бренда</div>
+    <img src="images/chanel.png" class="chanel" alt="Коко Шанель">
+    <img src="images/chanel 2.png" class="chanel2" alt="Коко Шанель">
+    <img src="images/chanel 3.png" class="chanel3" alt="Коко Шанель">
+    <div class="kvadrat"></div>
+    <div class="quote">«Женщина не может быть <br> в плохом настроении, <br> если она хорошо одета»</div>
+    <div class="quo"><h2>ЦИТАТЫ ШАНЕЛЬ</h2></div>
+    <div class="quotes">
+    <ol>
+      <div class="fashion"><li>Цитаты о моде:</div>
+       <ol>
+        <li>«Мода — это архитектура: вопрос пропорций»</li>
+        <li>«Мода, которая не выходит на улицы, не является модой»</li>
+      </ol>
+      <div class="beauty"><li>Цитаты о красоте:</div>
+       <ol>
+        <li>«Красота начинается в тот момент, когда вы решаете быть собой»</li>
+        <li>«Если вы когда-нибудь были поражены красотой женщины, но не можете <br> вспомнить, во что она была одета, значит, она была одета идеально»</li>
+      </ol>
+      <div class="beauty"><li>Цитаты о любви:</div>
+       <ol>
+        <li>«Старость не защищает от любви, но любовь защищает от старости»</li>
+        <li>«Не чувствовать любви — значит чувствовать себя отвергнутым, <br> независимо от возраста»</li>
+      </ol>
+    </ol>
+    </div>
+    <div class="kvadrat2"></div>
+    <h2>ШАНЕЛЬ ГЛАЗАМИ ХУДОЖНИКОВ</h2>
+    <figure>
+      <img src="images/painting1.png" alt="Картина">
+      <figcaption>Портрет Габриель Шанель,<br> Мари Лорансен, 1923 год</figcaption>
+    </figure>
+    <figure>
+      <img src="images/painting2.png" class="drawing" alt="Картина">
+      <figcaption class="portrait">Портрет Габриель Шанель для мюзикла <br> Coco, Сесил Бетон, 1969 год</figcaption>
+    </figure>
+    <a href="picture.html"><img src="images/arrow.png" class="arrow" alt="Стрелка"></a>
+    <a href="picture2.html"><img src="images/arrow.png" class="arrow2" alt="Стрелка"></a>
+    <figure>
+      <img src="images/painting3.png" class="drawing2" alt="Картина">
+      <figcaption>Chanel в Chanel, рисунок <br> Жана Кокто, 1937 год</figcaption>
+    </figure>
+    <a href="picture3.html"><img src="images/arrow.png" class="arrow3" alt="Стрелка"></a>
+    <figure>
+      <img src="images/painting4.png" class="drawing3" alt="Картина">
+      <figcaption class="portrait">Габриэль Шанель в отеле Ritz, <br> рисунок Кристиана Берара, 1937 год</figcaption>
+    </figure>
+    <a href="picture4.html"><img src="images/arrow.png" class="arrow4" alt="Стрелка"></a>
+    <div id="kvadratik">
+    <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <h3>Хотите записаться на очную лекцию <br> о Коко Шанель?</h3>
+    <div class="contacts">Оставьте свои контактные данные,<br> чтобы мы могли отправить вам приглашение</p></div>
+    <h4>Фамилия</h4>
+    <input type="Text" class="form" name="name" value="Иванов">
+    <h4>Имя</h4>
+    <input type="Text" class="form" name="name" value="Василий">
+    <h4>Мобильный телефон</h4>
+    <input type="tel" class="form" name="name" value="+79778819853">
+    <h4>Электронная почта</h4>
+    <input type="email" class="form" name="name" value="ivanov@mail.ru">
+    <h4>Дата отправки сообщения</h4>
+    <input type="date" class="form" name="name" value="2023-10-01">
+    <h4>
+        <input type="Submit" class="submit" name="submit"  value="Отправить">
+    </h4>
+    </div>
+    <div class="dop">
+      <h3>Дополнительные задания</h3>
+      <div class="task">
+        <div class="taski">Задание с DOM и JS</div>
+      </div>
+      <div class="task">
+        <div class="taski">Задание с изменением по событию</div>
+      </div>
+      <div class="task">
+        <a href="task.html"><div class="taski">Решение алгоритмической задачи</div></a>
+      </div>
+    </div>
+
+
+  </body>
+</html>
